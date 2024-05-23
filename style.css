@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFont;
+    src: url(nofex.ttf.otf);
+}
+
+.top{
+    display: flex;
+    background-color: black;
+    color: skyblue;
+    justify-content: space-evenly
+}
+
+.nofex{
+    font-family: myFont;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
