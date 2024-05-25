@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <title> AFT Spikeball League </title>
-    <link rel="stylesheet" href = "style.css">
+    <head>
+        <title> AFT Spikeball League </title>
+        <script src="https://kit.fontawesome.com/9d017de97e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+
     <body>
         <div class="top">
             <img src="logo.jpg" class="logo">
@@ -14,18 +18,17 @@
         </div>
         
         <div class="image-container">
+            <i class="fa-solid fa-circle-chevron-left" id="prevBtn"></i>            
+            <i class="fa-solid fa-circle-chevron-right" id="nextBtn"></i>            
             <div class="image-slide">
-                <img src="sb4.jpg" id="lastClone">
-                <img src="sb1.jpg">
-                <img src="sb2.jpg">
-                <img src="sb3.jpg">
-                <img src="sb4.jpg">
-                <img src="sb1.jpg" id="firstClone">
+                <img src="sb4.png" id="lastClone">
+                <img src="sb1.png">
+                <img src="sb2.png">
+                <img src="sb3.png">
+                <img src="sb4.png">
+                <img src="sb1.png" id="firstClone">
             </div>
         </div>
-
-        <button id="prevBtn">Prev</button>
-        <button id="nextBtn">Next</button>
 
         <script src="homepage.js" ></script>
     </body>
