@@ -3,6 +3,10 @@
     src: url(nofex.ttf.otf);
 }
 
+.background{
+    background-color: black;
+}
+
 .top{
     display: flex;
     background-color: black;
@@ -19,8 +23,15 @@
     font-family: myFont;
 }
 
+.description{
+    background-color: black;
+    color: skyblue;
+    font-family: myFont;
+    text-align: center;
+}
+
 .image-container{
-    width: 45%;
+    width: 35%;
     margin: auto;
     overflow: hidden;
     position: relative;
