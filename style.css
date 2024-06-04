@@ -7,6 +7,10 @@
     font-family: myFont;
 }
 
+a{
+    color: skyblue;
+}
+
 a:visited{
     color: skyblue;
 }
