@@ -22,6 +22,22 @@ a:visited{
     justify-content: space-evenly;
 }
 
+.team{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-details{
+    font-family: myFont;
+    width: 350px;
+    height: 350px;
+    color: skyblue;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+}
+
 .profile{
     display: flex;
     align-items: flex-start;
