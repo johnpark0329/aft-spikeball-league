@@ -25,14 +25,21 @@ function sortTable(n){
             shouldSwitch = false;
             x = rows[i].getElementsByTagName("td")[n];
             y = rows[i + 1].getElementsByTagName("td")[n];
+
+            let xContent = x.innerHTML.toLowerCase();
+            let yContent = y.innerHTML.toLowerCase();
+
+            // Check if the content is numeric
+            let xValue = isNaN(xContent) ? xContent : parseFloat(xContent);
+            let yValue = isNaN(yContent) ? yContent : parseFloat(yContent);
+
             if (direction == "ascending"){
-                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()){
+                if (xValue > yValue){
                     shouldSwitch = true;
                     break;
                 }
-            }
-            else if (direction == "descending"){
-                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()){
+            } else if (direction == "descending"){
+                if (xValue < yValue){
                     shouldSwitch = true;
                     break;
                 }
@@ -43,8 +50,7 @@ function sortTable(n){
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
             switching = true;
             switchCount++;
-        }
-        else{
+        } else {
             if (switchCount == 0 && direction == "ascending") {
                 direction = "descending";
                 switching = true;

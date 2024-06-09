@@ -19,7 +19,41 @@ a:visited{
     display: flex;
     background-color: black;
     color: skyblue;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+}
+
+.profile{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    font-family: myFont;
+    color: skyblue;
+    padding: 20px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+}
+
+.updates{
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+    color: skyblue;
+    padding: 20px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+}
+
+.pfp{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
 }
 
 .logo{
