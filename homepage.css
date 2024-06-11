@@ -3,13 +3,8 @@
     src: url(Gefika.otf);
 }
 
-.nofex{
-    font-family: myFont;
-    color: lightblue;
-}
-
 .image-container{
-    width: 35%;
+    width: 34%;
     margin: auto;
     overflow: hidden;
     position: relative;
