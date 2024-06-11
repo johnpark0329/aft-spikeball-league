@@ -22,15 +22,27 @@ a:visited{
     justify-content: space-evenly;
 }
 
-.team{
+.container{
     display: flex;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
-.team-details{
+.box{
     font-family: myFont;
     width: 350px;
     height: 350px;
+    color: skyblue;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+}
+
+.game-box{
+    font-family: myFont;
+    width: 200px;
+    height: 200px;
     color: skyblue;
     text-align: center;
     padding: 20px;
